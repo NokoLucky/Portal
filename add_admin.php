@@ -1,7 +1,6 @@
 <?php
-// phpcs:ignoreFile
 require 'core/init.php';
-//$general->logged_in_protect(); 
+$general->logged_in_protect(); 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
